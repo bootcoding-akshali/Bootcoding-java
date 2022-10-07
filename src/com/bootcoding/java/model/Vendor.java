@@ -77,4 +77,15 @@ public class Vendor {
     private Date registrationDate;
     private Date modifiedDate;
 
+    private String deliveryAddress;
+
+    private Date createdAt;
+
+    public void print(){
+        System.out.println(getName());
+        System.out.println(getCity());
+        System.out.println(getState());
+    }
+
+
 }
