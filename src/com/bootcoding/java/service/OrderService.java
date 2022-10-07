@@ -14,10 +14,6 @@ public class OrderService {
         order.setTotalprice(500.0);
         order.setVendorId(2);
         order.print();
-        int a= 10;
-        int b= 20;
-        int c;
-
         System.out.println("Order has been placed!");
         double discountedPrice = applyDiscount(order.getTotalprice());
 
