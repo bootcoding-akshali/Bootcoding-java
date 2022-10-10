@@ -9,6 +9,7 @@ public class VendorService {
         vendor.setCity("Nagpur");
         vendor.setName("pavan");
         vendor.setId(2);
+        vendor.setId(1);
         vendor.setState("Maharashtra");
         vendor.print();
         System.out.println("Vendor has been Registered successfully");

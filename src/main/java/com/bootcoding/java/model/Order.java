@@ -6,6 +6,13 @@ import java.util.List;
 public class Order {
     private long customerId;
 
+    private long vendorId;
+    double totalprice;
+    private String deliveryAddress;
+    OrderStatus status;
+    List<MenuItem>menuItems;
+
+
     public long getCustomerId() {
         return customerId;
     }
@@ -54,11 +61,6 @@ public class Order {
         this.menuItems = menuItems;
     }
 
-    private long vendorId;
-    double totalprice;
-    private String deliveryAddress;
-    OrderStatus status;
-    List<MenuItem>menuItems;
 
     public void print(){
         System.out.println(getCustomerId());

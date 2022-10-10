@@ -22,6 +22,7 @@ public class OrderService {
         return true;
 
     }
+
     public double applyDiscount(double price){
 
         double discount = price*0.1;
