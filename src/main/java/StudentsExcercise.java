@@ -48,7 +48,7 @@ public class StudentsExcercise {
         }
         return  filteredStudents;
 
-    }
+}
 
     public String getStudentsAddress(){
 
