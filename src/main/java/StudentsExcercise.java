@@ -11,6 +11,7 @@ public class StudentsExcercise {
         double percentage = 55.00;
         double result = se.getSquareOfStudentPercentage(percentage);
         System.out.println("Square of " + percentage + "% is " + result);
+        System.out.println("");
 
         List<Student> students = new ArrayList<>();
         Student st1 = new Student();
@@ -27,8 +28,24 @@ public class StudentsExcercise {
         students.add(st2);
         students.add(st3);
 
-        List<Student> studentByPercentage = se.findStudentByPercentage(students, 70);
+        List<Student> studentByPercentage = se.findStudentByPercentage(students, 40);
         System.out.println();
+
+        for(Student s: studentByPercentage){
+            System.out.println("Percentage of Studetn is "+s.getPercentage());
+        }
+
+        int n = 10;
+        int[] ns = {19, 2023, 48, 489};
+        System.out.println(n);
+        System.out.println(ns);
+
+        for(int pos = 0; pos < ns.length; pos++){
+            System.out.println(ns[pos]);
+//            System.out.println(pos);
+        }
+
+
 
 
     }
@@ -50,9 +67,15 @@ public class StudentsExcercise {
 
 }
 
-    public String getStudentsAddress(){
+    public List<Student> getStudentAddress(List<Student> students, String city){
+        List<Student> filteredStudents = new ArrayList<>();
 
-        return  null;
+        for(Student s : students){
+            if(s.getCity().equals(city)){
+                filteredStudents.add(s);
+            }
+        }
+       return filteredStudents;
     }
 
 
