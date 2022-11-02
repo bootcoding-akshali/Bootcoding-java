@@ -1,6 +1,6 @@
 public class ReverseNo {
     public static void main(String[] args) {
-        int number = 987654, reverse = 0;
+        int number = 678432, reverse = 0;
         while(number != 0)
         {
             int remainder = number % 10;
@@ -10,4 +10,5 @@ public class ReverseNo {
         System.out.println("The reverse of the given number is: " + reverse);
     }
 }
+
 
