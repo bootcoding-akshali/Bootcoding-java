@@ -7,9 +7,14 @@ public class NaturalNo {
 
     }
     public  static void getNaturalNo(int num){
-        if (num <=50)
-            System.out.println(num+" ");
+
+        if (num >50) {
+            return;
+        }
+
+
         getNaturalNo(num+1);
+        System.out.println(num+" ");
 
     }
 }
