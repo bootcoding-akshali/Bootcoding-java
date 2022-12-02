@@ -2,13 +2,16 @@ package Excercise;
 
 public class SumOfDigit {
     public static void main(String[] args) {
-        int sumOfDigits = findSumOfDigits(3, 6);
-        System.out.println(sumOfDigits);
+        int n = 567;
+        System.out.print("Sum of digits : "+ addDigit(n));
     }
-    public static int findSumOfDigits(int no, int sum){
-        if (no==0)
-            return sum ;
-          sum += no % 10;
-          return findSumOfDigits(no/10 ,sum);
+    private static int addDigit(int no)
+    {
+        if (no == 0)
+        {
+            return 0;
+        }
+        return (no % 10 + addDigit(no / 10));
     }
+
 }
