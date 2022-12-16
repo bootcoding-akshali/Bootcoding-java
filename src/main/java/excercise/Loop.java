@@ -1,4 +1,4 @@
-package Excercise;
+package excercise;
 
 public class Loop {
     public static void loop(int n) {
