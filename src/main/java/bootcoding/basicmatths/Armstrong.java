@@ -5,8 +5,7 @@ public class Armstrong {
       printArmstrongNumbers(153);
     }
     public  static  void printArmstrongNumbers(int n){
-//     int num1 = 10;
-//     int num2 = 20;
+    int num2 = 20;
 
         for(int i=1; i<=500;i++) {
             int d = i;
@@ -14,7 +13,7 @@ public class Armstrong {
             while (d > 0) {
                 int x = d % 10;
                 result = result + (x * x * x);
-                d = d / 10; // 1
+                d = d / 10;
             }
             if (i == result) {
                 System.out.println(result);

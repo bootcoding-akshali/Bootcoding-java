@@ -44,10 +44,6 @@ public class StudentsExcercise {
             System.out.println(ns[pos]);
 //            System.out.println(pos);
         }
-
-
-
-
     }
 
     public double getSquareOfStudentPercentage(double percentage){
@@ -64,8 +60,6 @@ public class StudentsExcercise {
             }
         }
         return  filteredStudents;
-
-
 }
 
     public List<Student> getStudentAddress(List<Student> students, String city){

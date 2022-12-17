@@ -26,5 +26,4 @@ public class EqualsArrayTwo {
         return true;
     }
 
-
 }

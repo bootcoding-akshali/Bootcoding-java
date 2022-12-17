@@ -11,6 +11,6 @@ public class FoundExistnumber {
             System.out.println("found "+x);
         }
         }
-    }
+     }
 
 }

@@ -1,13 +1,12 @@
-package bootcoding.basicmatths;
+package excercise;
 
-public class RecursionPractice {
+public class ArrayPractice {
     public static void main(String[] args) {
         countdown(5);
         nLines(2);
         countup(4);
         displayBinary(23);
         System.out.println(prod(2,4));
-        fibonacci(3);
 
     }
     public static void countdown(int n) {
@@ -48,11 +47,5 @@ public class RecursionPractice {
             int result = n * recurse;
             return result;
         }
-    }
-    public static int fibonacci(int n) {
-        if (n == 1 || n == 2) {
-            return 1;
-        }
-        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }

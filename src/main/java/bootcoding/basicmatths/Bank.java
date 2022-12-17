@@ -15,6 +15,7 @@ public class Bank {
         }
         System.out.println(totalAmount);
 
+
         
     }
 }

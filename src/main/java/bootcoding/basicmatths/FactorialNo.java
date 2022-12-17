@@ -3,11 +3,11 @@ package bootcoding.basicmatths;
 public class FactorialNo {
     public static void main(String[] args) {
         int n = 12;
-        for(int i = (n-4);i<=n;i++)
+        for(int i = (n-4); i<=n; i++)
         {
         FindNumbersFactorial(i);
     }
-    
+
 }
 
     private static void FindNumbersFactorial(int no)

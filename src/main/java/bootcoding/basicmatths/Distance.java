@@ -12,6 +12,7 @@ public class Distance {
     }
 
     public static void main(String[] args) {
+
         System.out.println(distance(3,4,6,8));
     }
 }
