@@ -5,27 +5,13 @@ public class SmallestAmt {
       getSmallestAmt(375);
     }
     public static void getSmallestAmt(int amt){
-        int total;
-        total = amt/100;
-        amt = amt - (total * 100);
-        System.out.println(total);
-        total = amt/50;
-        amt = amt - (total * 50);
-        System.out.println(total);
-        total = amt/20;
-        amt = amt - (total * 20);
-        System.out.println(total);
-        total = amt/10;
-        amt = amt - (total * 10);
-        System.out.println(total);
-        total = amt/5;
-        amt = amt - (total * 5);
-        System.out.println(total);
-        total = amt/2;
-        amt = amt - (total * 2);
-        System.out.println(total);
-        total = amt/1;
-        amt = amt - (total * 1);
-        System.out.println(total);
+        int [] currency = {100,50,20,10,5,2,1};
+        while (amt != 0){
+            for(int i=0; i< currency.length;i++){
+                float total = amt/currency[i];
+                amt = amt%currency[i];
+                System.out.println(total);
+            }
+        }
     }
 }
