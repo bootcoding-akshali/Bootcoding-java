@@ -1,8 +1,8 @@
 package excercise;
 
-public class IfelseProgram {
+public class CheckNoDivisible {
     public static void main(String[] args) {
-        IfelseProgram p = new IfelseProgram();
+        CheckNoDivisible p = new CheckNoDivisible();
         p.checkDivisible(12 );
     }
 
