@@ -2,11 +2,10 @@ package bootcoding.basic.matths;
 
 public class Armstrong {
     public static void main(String[] args) {
-      printArmstrongNumbers(153);
+        printArmstrongNumbers(153);
     }
     public  static  void printArmstrongNumbers(int n){
-    int num2 = 20;
-
+        int num2 = 20;
         for(int i=1; i<=500;i++) {
             int d = i;
             int result = 0;
