@@ -1,22 +1,22 @@
-package bootcoding.basic.matths.leetCodeprograms;
-
+package com.bootcoding.java.leetCodeprograms;
+//palindrameNo 121,535,1221
 public class PalindromeNumber {
     public static void main(String[] args) {
-        boolean palindrome = isPalindrome(121 );
+        boolean palindrome = isPalindrome(121);
         System.out.println(palindrome);
 
     }
     public static boolean isPalindrome(int x) {
 
         int temp = x;
-        int rev = 0;
-        int s;
+        int revers = 0;
+        int sum;
         while (x > 0){
-            s = x % 10;
-            rev = rev * 10 + s;
+            sum = x % 10;
+            revers = revers * 10 + sum;
             x = (x / 10);
         }
-        if(rev == temp){
+        if(revers == temp){
             return true;
         }else{
             return false;
