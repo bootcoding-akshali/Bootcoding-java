@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.String;
+package com.bootcoding.java.String;
 
 public class Compair {
     public static void main(String[] args) {
