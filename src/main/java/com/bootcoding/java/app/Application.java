@@ -4,6 +4,7 @@ import com.bootcoding.java.dao.DAOService;
 import com.bootcoding.java.dao.OrderDAO;
 import com.bootcoding.java.model.Customer;
 import com.bootcoding.java.model.Order;
+import com.bootcoding.java.model.Vendor;
 import com.bootcoding.java.service.CustomerService;
 import com.bootcoding.java.service.OrderService;
 import com.bootcoding.java.service.VendorService;
@@ -15,6 +16,8 @@ public class Application {
         DAOService dbService = new DAOService();
 
         OrderDAO orderDAO = new OrderDAO();
+        Customer customer = new Customer();
+        Vendor vendor = new Vendor();
 
         List<Order> allOrders = orderDAO.getAllOrders();
 
