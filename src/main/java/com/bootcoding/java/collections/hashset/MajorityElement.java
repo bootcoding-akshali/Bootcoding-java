@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.collections.hashset;
+package com.bootcoding.java.collections.hashset;
 
 import java.util.HashMap;
 
