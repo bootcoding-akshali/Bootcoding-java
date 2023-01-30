@@ -4,7 +4,6 @@ public class CheckPrimeNo {
     public static void main(String[] args) {
         int n = 19;
         System.out.println(isPrime(n));
-
     }
     public static boolean isPrime(int n){
         if (n < 2){
