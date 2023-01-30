@@ -13,8 +13,5 @@ public class VendorService {
         vendor.setState("Maharashtra");
         vendor.print();
         System.out.println("Vendor has been Registered successfully");
-
-
-
     }
 }
