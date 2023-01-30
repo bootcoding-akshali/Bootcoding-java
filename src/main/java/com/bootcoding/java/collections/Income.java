@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.collections;
+package com.bootcoding.java.collections;
 
 import java.util.ArrayList;
 
