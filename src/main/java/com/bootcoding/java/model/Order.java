@@ -4,13 +4,22 @@ package com.bootcoding.java.model;
 import java.util.List;
 
 public class Order {
+    private long id;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
     private long customerId;
 
     private long vendorId;
-    double totalprice;
-    private String deliveryAddress;
+
     OrderStatus status;
-    List<MenuItem>menuItems;
+    List<MenuItem> menuItems;
 
 
     public long getCustomerId() {
@@ -29,9 +38,10 @@ public class Order {
         this.vendorId = vendorId;
     }
 
+
     public double getTotalprice() {
-        return totalprice;
-    }
+        double totalprice;
+        return totalprice;}
 
     public void setTotalprice(double totalprice) {
         this.totalprice = totalprice;
