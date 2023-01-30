@@ -1,6 +1,6 @@
-package bootcoding.basic.matths.linkedList;
+package com.bootcoding.java.linkedList;
 
-public class InsertionNode {
+public class  InsertionNode {
     public static void main(String[] args) {
         Node head = createDummyList();
         printList(head);
