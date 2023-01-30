@@ -3,6 +3,8 @@ package com.bootcoding.java.model;
 import java.util.Date;
 
 public class Vendor {
+
+
     private long id;
     private String name;
 
