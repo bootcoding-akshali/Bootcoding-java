@@ -29,17 +29,21 @@ public class OrderDAO {
 
             while (resultSet.next()) {
                 double totalprice = resultSet.getDouble("totalprice");
-
                 String deliveryAddress = resultSet.getString("deliveryaddress");
+                long customerId = resultSet.getLong("customerid");
+                long vendorId = resultSet.getLong("vendorid");
+
 
                 Order order = new Order();
                 order.setTotalprice(totalprice);
                 order.setDeliveryAddress(deliveryAddress);
-
+                order.setCustomerId(customerId);
+                order.setVendorId(vendorId);
                 orders.add(order);
             }
-        }catch (Exception e){
-            e.printStackTrace();
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
         return orders;
 
