@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.collections.hashmap;
+package com.bootcoding.java.collections.hashmap;
 
 import java.util.HashMap;
 
@@ -14,6 +14,5 @@ public class InsertionHashMap {
 
         System.out.println(map);
     }
-
 }
 
