@@ -1,4 +1,4 @@
-package bootcoding.basic.matths;
+package com.bootcoding.java;
 
 public class CalculateArea {
     public static double calculateArea(double radius) {
