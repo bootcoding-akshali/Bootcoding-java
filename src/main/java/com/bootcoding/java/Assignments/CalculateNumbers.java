@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.Assignments;
+package com.bootcoding.java.Assignments;
 
 public class CalculateNumbers {
     public static void main(String[] args) {
