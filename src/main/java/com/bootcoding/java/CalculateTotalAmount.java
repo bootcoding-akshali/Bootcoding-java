@@ -1,4 +1,4 @@
-package bootcoding.basic.matths;
+package com.bootcoding.java;
 
 public class CalculateTotalAmount {
     public static void main(String[] args) {
