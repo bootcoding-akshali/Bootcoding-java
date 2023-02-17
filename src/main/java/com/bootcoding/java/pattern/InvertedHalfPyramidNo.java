@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.pattern;
+package com.bootcoding.java.pattern;
 
 public class InvertedHalfPyramidNo {
     public static void main(String[] args) {
