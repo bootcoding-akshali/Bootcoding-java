@@ -7,7 +7,6 @@ public class GradeSystem {
         for(int i = 0 ; i < gradeResults.length; i++){
             System.out.println(studentPercentages[i] + " -> " + gradeResults[i]);
         }
-
     }
     public static char[] calculateGrade(int[] studentPercentages){
         char[] grades = new char[studentPercentages.length];
