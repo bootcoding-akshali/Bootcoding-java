@@ -15,6 +15,5 @@ public class HasDayWithoutBirds {
     public static void main(String[] args) {
         HasDayWithoutBirds hasDayWithoutBirds = new HasDayWithoutBirds();
         System.out.println( hasDayWithoutBirds.hasDayWithoutBirds());
-
     }
 }
