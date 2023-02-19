@@ -3,7 +3,7 @@ package bird.watcher;
 public class BirdWatcher {
     static int[] birdsPerDay = { 0, 2, 5, 3, 7, 8, 4};
     public BirdWatcher(int[] birdsPerDay){
-        this.birdsPerDay = birdsPerDay;
+        BirdWatcher.birdsPerDay = birdsPerDay;
     }
 
          public int[] getLastWeek() {
@@ -15,8 +15,7 @@ public class BirdWatcher {
       public int incrementTodaysCount() {
           int[] birdsPerDay = { 0, 2, 5, 3, 7, 8, 4};
         int todaysBirdCount = birdsPerDay[birdsPerDay.length-1];
-        int incrementedtodaysBirdCount = todaysBirdCount + 1;
-         return incrementedtodaysBirdCount;
+          return todaysBirdCount + 1;
 
     }
      public boolean hasDayWithoutBirds() {
