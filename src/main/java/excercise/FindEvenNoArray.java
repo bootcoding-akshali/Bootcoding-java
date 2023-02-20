@@ -10,7 +10,6 @@ public class FindEvenNoArray {
             findPrimeElements(num);
 
         }
-
         private static void findPrimeElements(int[] num) {
 //            int[] a = num;
             for (int i =0;i<num.length;i++){
