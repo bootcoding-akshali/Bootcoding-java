@@ -12,7 +12,7 @@ public class FindEvenNoArray {
         }
 
         private static void findPrimeElements(int[] num) {
-            int[] a = num;
+//            int[] a = num;
             for (int i =0;i<num.length;i++){
                 if (num[i]==2 || num[i] == 3){
                     System.out.println(num[i]+" is Prime Number");
