@@ -2,7 +2,7 @@ package excercise;
 
 public class FindEvenNoArray {
         public static void main(String[] args) {
-            int[] num = {1,2, 7, 3, 15};
+            int[] num = {1,53, 7, 3, 17};
             System.out.println("Array Elements");
             for (int i = 0; i < num.length; i++) {
                 System.out.println(num[i]);
