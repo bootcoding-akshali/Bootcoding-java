@@ -20,7 +20,7 @@ public class FindEvenNoArray {
                 }else if (num[i]%3==0){
 
                 }else {
-                    System.out.println(num[i]+" is Prime Number");
+                    System.out.println(num[i]+" is Prime  Number");
                 }
             }
         }
