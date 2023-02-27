@@ -25,14 +25,14 @@ public class Hashing {
         }
 
 
-        if(!set.contains(6)) {
+        if(!set.contains(9)) {
             System.out.println("absent");
         }
 
 
         //Delete
         set.remove(1);
-        if(!set.contains(1)) {
+        if(!set.contains(2)) {
             System.out.println("absent");
         }
 
