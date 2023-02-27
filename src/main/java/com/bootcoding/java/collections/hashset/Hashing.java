@@ -12,6 +12,7 @@ public class Hashing {
         set.add(2);
         set.add(3);
         set.add(1);
+        set.add(4);
 
 
         //Size
@@ -51,7 +52,7 @@ public class Hashing {
 
         //isEmpty
         if(!set.isEmpty()) {
-            System.out.println("set is not empty");
+            System.out.println("set is not empty in hashing");
         }
     }
 
