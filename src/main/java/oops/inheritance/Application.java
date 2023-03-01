@@ -12,6 +12,5 @@ public class Application {
         windInstrument.blow();
         PercussionInstrument percussionInstrument = new PercussionInstrument("thud");
         percussionInstrument.hit();
-
     }
 }
