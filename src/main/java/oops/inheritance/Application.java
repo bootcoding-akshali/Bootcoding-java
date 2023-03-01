@@ -1,7 +1,7 @@
 package oops.inheritance;
 
 import com.bootcoding.java.String.StringExample;
-
+// Musical Intrumental example in inheritance
 public class Application {
     public static void main(String[] args) {
         StringInstrument instrument = new StringInstrument("The harp");
