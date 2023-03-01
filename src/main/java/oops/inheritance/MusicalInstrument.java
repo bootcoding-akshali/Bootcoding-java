@@ -8,6 +8,9 @@ public class MusicalInstrument {
         this.name = name;
         this.category = category;
     }
+    public void songs(){
+        System.out.println("Which song do u want to listen");
+    }
 
     public void play() {
         // Placeholder method for playing the instrument
