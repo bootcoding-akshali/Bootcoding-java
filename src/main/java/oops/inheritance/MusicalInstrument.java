@@ -11,6 +11,6 @@ public class MusicalInstrument {
 
     public void play() {
         // Placeholder method for playing the instrument
-        System.out.println("Play songs");
+        System.out.println("Playing different types of songs");
     }
 }
