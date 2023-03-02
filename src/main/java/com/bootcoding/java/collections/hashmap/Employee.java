@@ -9,6 +9,7 @@ public class Employee {
         emp.put("Ram",2);
         emp.put("Sham",3);
         System.out.println(emp);
+        System.out.println(emp.get("pratik"));
 
     }
 }
