@@ -14,5 +14,9 @@ public class SetAndHashset {
         names.remove(0);
         System.out.println(names.size());
         System.out.println(names.contains("pavan"));
+        System.out.println(names.isEmpty());
+        for (String name: names){
+            System.out.println(name);
+        }
     }
 }
