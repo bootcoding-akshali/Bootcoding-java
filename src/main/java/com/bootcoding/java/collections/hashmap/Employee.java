@@ -10,7 +10,8 @@ public class Employee {
         emp.put("Sham",3);
         System.out.println(emp);
         System.out.println(emp.get("pratik"));
-        System.out.println(emp.containsKey("Ram"));
+        System.out.println(emp.containsKey("Johan"));
+        System.out.println(emp.containsValue(3));
 
     }
 }
