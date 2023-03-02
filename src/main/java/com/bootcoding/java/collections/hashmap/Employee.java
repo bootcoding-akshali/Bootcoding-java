@@ -13,5 +13,11 @@ public class Employee {
         System.out.println(emp.containsKey("Johan"));
         System.out.println(emp.containsValue(3));
 
+        emp.put("Om",23);
+        System.out.println(emp);
+
+        emp.replace("Tom",777);
+        System.out.println(emp);
+
     }
 }
