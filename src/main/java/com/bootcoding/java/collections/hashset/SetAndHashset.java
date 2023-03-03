@@ -1,6 +1,8 @@
 package com.bootcoding.java.collections.hashset;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class SetAndHashset {
@@ -18,5 +20,17 @@ public class SetAndHashset {
         for (String name: names){
             System.out.println(name);
         }
+
+        List<Integer> numberList = new ArrayList<>();
+        numberList.add(2);
+        numberList.add(3);
+        numberList.add(4);
+        numberList.add(2);
+        numberList.add(4);
+        System.out.println(numberList);
+
+        Set<Integer> numberSet = new HashSet<>();
+        numberSet.addAll(numberList);
+        System.out.println(numberSet);
     }
 }
