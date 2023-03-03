@@ -27,6 +27,8 @@ public class SetAndHashset {
         numberList.add(4);
         numberList.add(2);
         numberList.add(4);
+        numberList.add(5);
+        numberList.add(4);
 
         System.out.println(numberList);
 
