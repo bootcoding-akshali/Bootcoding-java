@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.collections;
+package com.bootcoding.java.collections;
 
 public class Details {
     public String description;
