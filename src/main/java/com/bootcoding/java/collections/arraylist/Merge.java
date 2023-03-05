@@ -9,7 +9,8 @@ public class Merge {
         list1.add("1");
         list1.add("5");
         List<String> list2 = new ArrayList<>();
-        list2.add("2");
+        list2.add("2");;
+        list2.add("3");
 
         List<String> mergedList = new ArrayList<>(list1);
         mergedList.addAll(list2);
