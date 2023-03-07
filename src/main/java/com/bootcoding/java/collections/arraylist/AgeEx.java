@@ -17,5 +17,14 @@ public class AgeEx {
             System.out.println(ages.get(i));
         }
 
+        ages.remove(1);
+        System.out.println(ages);
+
+          ages.get(0);
+        System.out.println(ages);
+
+        ages.add(3);
+        System.out.println(ages);
+
     }
 }
