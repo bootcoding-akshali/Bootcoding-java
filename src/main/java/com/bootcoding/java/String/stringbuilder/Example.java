@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.String.stringbuilder;
+package com.bootcoding.java.String.stringbuilder;
 
 public class Example {
     public static void main(String[] args) {
