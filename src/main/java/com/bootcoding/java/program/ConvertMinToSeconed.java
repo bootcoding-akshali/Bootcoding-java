@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.program;
+package com.bootcoding.java.program;
 
 public class ConvertMinToSeconed {
     public static int convertToSeconds(int minutes){
