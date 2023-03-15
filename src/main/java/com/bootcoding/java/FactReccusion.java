@@ -1,4 +1,4 @@
-package bootcoding.basic.matths;
+package com.bootcoding.java;
 
 public class FactReccusion {
     public static void main(String[] args) {
