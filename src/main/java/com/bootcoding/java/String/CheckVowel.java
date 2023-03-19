@@ -1,4 +1,4 @@
-package bootcoding.basic.matths.String;
+package com.bootcoding.java.String;
 
 import java.util.Locale;
 
